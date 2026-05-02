@@ -2,8 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>HY BROTHERS | Portfolio</title>
+  <title>HY BROTHERS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content='https://hy-bros.github.io/hy-bros.png' property='og:image' />
+ <link href='https://hy-bros.github.io/hy-bros.png' rel='shortcut icon' type='image/vnd.microsoft.icon' />
+ <link href='https://hy-bros.github.io/hy-bros.png' rel='apple-touch-icon' />
+  <meta content='HY BROTHERS' property='og:site_name' />
+ <meta content='HY BROTHERS' property='og:title' />
+ <meta content='HY BROTHERS' name='title' />
+ <meta content='website' property='og:type' />
+ <meta content='We are a brotherly partnership of web designers and developers, dedicated to crafting elegant, functional digital experiences. Explore our portfolio of completed works.' property='og:description' />
+ <meta content='We are a brotherly partnership of web designers and developers, dedicated to crafting elegant, functional digital experiences. Explore our portfolio of completed works.' name='description' />
+ <meta content='HY BROTHERS, HYBROS, hybros, hy brothers, hybros github, hybrothers github, hybros github.io, harsh & yash, harsh, yash, asbros website, ascodeeditor, rtugames, rtutools, as chat, as music, as youtube, ascineplex, as cineplex' name='keywords' />
   <style>
     /* Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@400;700&family=Jost&family=Sen&family=Lato:wght@300;400;700&display=swap');
@@ -137,7 +147,7 @@
       const container = document.getElementById("projects");
       
       try {
-        const response = await fetch("https://hybros.github.io/index.json");
+        const response = await fetch("https://hy-bros.github.io/index.json");
         let projects = await response.json();
 
         // If fetch works but array is empty, use fallback
